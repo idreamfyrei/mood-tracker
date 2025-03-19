@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Reflections</h1>
+        <div class="mood-selector">
+            <h2>Feeling good or meh?</h2>
+            <div class="mood-selector-container">
+                <button class="mood-button" id="happy">
+                    <span class="emoji">&#128513;</span>
+                    <span class="label">Happy</span>
+                </button>
+                <button class="mood-button" id="sad">
+                    <span class="emoji">&#128577;</span>
+                    <span class="label">Sad</span>
+                </button>
+                <button class="mood-button" id="angry">
+                    <span class="emoji">&#128545;</span>
+                    <span class="label">Angry</span>
+                </button>
+                <button class="mood-button" id="anxiety">
+                    <span class="emoji">&#128551;</span>
+                    <span class="label">Anxiety</span>
+                </button>
+                <button class="mood-button" id="excitement">
+                    <span class="emoji">&#129321;</span>
+                    <span class="label">Excitement</span>
+                </button>
+                <button class="mood-button" id="neutral">
+                    <span class="emoji">&#128528;</span>
+                    <span class="label">Neutral</span>
+                </button>
+            </div>
+        </div>
+        <div class="mood-log">
+            <h2>Mood Trail</h2>
+            <div class="mood-log-buttons">
+                <button class="log-time" onclick="displayMoods('Day')">Day</button>
+                <button class="log-time" onclick="displayMoods('Week')">Week</button>
+                <button class="log-time" onclick="displayMoods('Month')">Month</button>
+            </div>
+            <ul id="mood-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
