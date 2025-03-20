@@ -1,10 +1,10 @@
-#Moody
+# Moody
 
-##Overview
+## Overview
 
 Moody is a web application which enables the user to track their mood on a daily basis. User can select their mood from the available options and track it on the basis of Day/Week/Month.container
 
-##Features
+## Features
 
 + User can log their daily mood through emoji-based buttons
 + Restricts user to log a single entry per day 
@@ -12,12 +12,16 @@ Moody is a web application which enables the user to track their mood on a daily
 + The logged moods are stored in localStorage
 + Simple UI with responsive design
 
-##Technologies
+## Technologies
 - HTML
 - CSS
 - JavaScript
 
-##Screenshot
+### Screenshot
 
 ![Mood Tracker Screenshot](asset/image.png)
+
+### Deployment Link
+
+[Deployment Link](https://mood-tracker-steel.vercel.app/)
 
