@@ -76,7 +76,7 @@ h2 {
   font-size: 0.9rem;
   color: #fcfcfc;
 }
-
+/* ------buttons-------- */
 .mood-button:hover {
   transform: scale(1.3);
 }
@@ -131,6 +131,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.322);
     transform: translateY(-2px);
   }
+
   
 @media (max-width: 600px) {
   .label {
